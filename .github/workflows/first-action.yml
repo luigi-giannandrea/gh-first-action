@@ -6,5 +6,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Italia"
+      - name: Print Multiline
+        run: |
+          echo "Line 1: Goriano Valli"
+          echo "Line 2: L'Aquila"
+          echo "Line 3: Pescara"
       - name: Print bye
         run: echo "Arrivederci"
